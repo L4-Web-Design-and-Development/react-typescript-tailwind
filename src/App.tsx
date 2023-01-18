@@ -4,7 +4,7 @@ import Paragraph from "./components/Paragraph";
 function App() {
   return (
     <div className="flex items-center justify-center min-h-screen max-w-2xl mx-auto">
-      <div className="p-20 rounded-xl bg-sky-100">
+      <div className="m-8 p-20 rounded-xl bg-sky-100 shadow-xl">
         <h1 className="text-6xl font-bold text-blue-500 mb-8 text-center">
           Hello world!
         </h1>
