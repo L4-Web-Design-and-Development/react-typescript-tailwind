@@ -1,3 +1,4 @@
+import Link from "./components/Link";
 import ListItem from "./components/ListItem";
 import Paragraph from "./components/Paragraph";
 
@@ -23,12 +24,7 @@ function App() {
         </Paragraph>
         <Paragraph>
           Be sure to use an online Tailwind CSS cheatsheet like{" "}
-          <a
-            className="text-blue-500 hover:text-blue-700 underline"
-            href="https://nerdcave.com/tailwind-cheat-sheet"
-          >
-            this one
-          </a>{" "}
+          <Link url="https://nerdcave.com/tailwind-cheat-sheet">this one</Link>
           online to help you.
         </Paragraph>
       </div>
