@@ -7,36 +7,38 @@ function App() {
     <div className="flex items-center justify-center min-h-screen container mx-auto">
       <div className="m-8 p-20 rounded-xl bg-sky-100 shadow-xl">
         <h1 className="text-6xl font-bold text-blue-500 mb-8 text-center">
-          Hello world!
+          Handling User Input
         </h1>
         <Paragraph>
-          This project has multiple branches to help you get used to coding in
-          React.
+          Update the component code to track what the user types into the input
+          field below and print it out to the space directly below.
         </Paragraph>
-        <Paragraph>
-          Use GitHub Desktop to switch between the branches and complete the
-          tasks. Create your own branches from these to work on your solutions
-          independently from the original code.
-        </Paragraph>
-        <div className="m-8 p-10 rounded-xl bg-white">
-          <Paragraph>
-            A list of the branches and their recommended order is shown below.
-          </Paragraph>
-          <ol className="my-4 ml-16">
-            <ListItem>Counter</ListItem>
-            <ListItem>Handling User Input</ListItem>
-            <ListItem>ToDo List App</ListItem>
-          </ol>
+        <div className="flex flex-col mb-6">
+          <label
+            htmlFor="user-input"
+            className="text-gray-400 text-lg pl-2 mb-2"
+          >
+            Message
+          </label>
+          <input
+            id="user-input"
+            className="px-6 py-4 text-2xl"
+            placeholder="Type something..."
+          />
         </div>
-        <Paragraph>
-          You should also ensure your solutions are styled professionally using{" "}
-          <Link url="https://tailwindcss.com/">Tailwind CSS</Link>.
-        </Paragraph>
-        <Paragraph>
-          Be sure to use an online Tailwind CSS cheatsheet like{" "}
-          <Link url="https://nerdcave.com/tailwind-cheat-sheet">this one</Link>{" "}
-          online to help you.
-        </Paragraph>
+        <div className="p-6">
+          <div className="p-6 bg-white rounded-lg flex justify-between items-center">
+            <p className="tracking-wide text-gray-600 text-2xl">
+              You typed:{" "}
+              <span className="bg-green-200 px-4 py-2 rounded-md text-green-600">
+                ???
+              </span>
+            </p>
+            <button className="bg-indigo-400 text-white px-4 py-2 rounded-md">
+              Clear Text
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
