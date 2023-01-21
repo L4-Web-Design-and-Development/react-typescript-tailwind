@@ -1,8 +1,8 @@
-# React Counter README
+# Beginner React Challenges
 
 # What is it?
 
-This is a project for beginners learning React and Tailwind CSS.
+This is a project for beginners who are learning React and Tailwind CSS.
 
 Each branch of the project contains a different challenge:
 
@@ -39,6 +39,15 @@ Can you update the component code so that clicking the 'Add' button makes the nu
 **HINT**: you can use the (useState)[https://beta.reactjs.org/reference/react/useState#reference] hook to solve this. Look at a usage example (here)[https://beta.reactjs.org/reference/react/useState#usage].
 
 If you are REALLY stuck, take a look at a counter example from the React docs page (here)[https://beta.reactjs.org/reference/react/useState#examples-basic].
+
+### 2. Handling User Input
+
+1. Update the code so that when the user types into the input field, their writing is displayed as a live update where the three green question marks are currently placed (see the example below).
+2. When the user clicks the 'Clear Text' button, the text in the input box and the 'You typed:' area should clear.
+
+**HINT**: you can use the (useState)[https://beta.reactjs.org/reference/react/useState#reference] hook to solve this. Look at a usage example (here)[https://beta.reactjs.org/reference/react/useState#usage].
+
+If you are REALLY stuck, take a look at the text field example (second tab along) from the React docs page (here)[https://beta.reactjs.org/reference/react/useState#examples-basic].
 
 ## Learn More
 
