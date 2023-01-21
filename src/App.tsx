@@ -1,6 +1,4 @@
-import ListItem from "./components/ListItem";
 import Paragraph from "./components/Paragraph";
-import Link from "./components/Link";
 
 function App() {
   return (
