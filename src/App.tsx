@@ -9,7 +9,7 @@ function App() {
         </h1>
         <Paragraph>
           Update the component code to track what the user types into the input
-          field below and print it out to the space directly below.
+          field and print it out to the space directly below.
         </Paragraph>
         <div className="flex flex-col mb-6">
           <label
