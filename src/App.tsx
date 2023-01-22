@@ -14,9 +14,8 @@ function App() {
           React.
         </Paragraph>
         <Paragraph>
-          Use GitHub Desktop to switch between the branches and complete the
-          tasks. Create your own branches from these to work on your solutions
-          independently from the original code.
+          Use <Link url="https://desktop.github.com/">GitHub Desktop</Link> to
+          switch between the branches and complete the tasks.
         </Paragraph>
         <div className="m-8 p-10 rounded-xl bg-white">
           <Paragraph>
