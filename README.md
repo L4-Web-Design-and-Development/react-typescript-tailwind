@@ -66,6 +66,14 @@ Can you use the [usePrevious custom hook](https://usehooks.com/usePrevious/) to 
 
 ![Extra credit 2 finished example](https://res.cloudinary.com/dptdx8zuv/image/upload/v1674377447/react-introduction/2023-01-22_08-48-42_1_uxd5wg.gif)
 
+### 3. ToDo List Challenge
+
+This will bring all of your knowledge together. Create a ToDo list app that will allow the user to:
+
+1. Create a ToDo
+2. Delete a ToDo
+3. Edit a Todo
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
