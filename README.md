@@ -72,7 +72,11 @@ This will bring all of your knowledge together. Create a ToDo list app that will
 
 1. Create a ToDo
 2. Delete a ToDo
-3. Edit a Todo
+3. Extension (optional): Edit a Todo
+
+Take a look at the example below to get an idea of what it might look like, but don't feel like you have to copy it exactly. Make it your own!
+
+![Finish ToDo app example](https://res.cloudinary.com/dptdx8zuv/image/upload/v1674474087/react-introduction/2023-01-23_11-37-47_1_n7lt3y.gif)
 
 ## Learn More
 
